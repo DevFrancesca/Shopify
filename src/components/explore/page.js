@@ -1,9 +1,11 @@
 import React from 'react'
+import './explore.css'
 
 const Explore = () => {
   return (
-    <div>
-      Explore and Build
+    <div className='exploreBuild'>
+      <div className='exploreCon'></div>
+      <div className='buildCon'></div>
     </div>
   )
 }
